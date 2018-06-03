@@ -1,0 +1,264 @@
+* {
+    padding: 0;
+}
+
+body {
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(Images/background-image.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat:no-repeat;
+}
+
+.alldetails {
+    text-align: center;
+    color: white;
+    font-family: Ubuntu, sans-serif;
+    border: 0.3em solid white;
+    margin: 200px 400px 0px 400px;
+    padding: 10px;
+    text-transform: uppercase;
+}
+
+#name {
+    /* font-size: 24px; */
+}
+
+#designation {
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+.nav {
+    text-align: center;
+}
+
+.nav a {
+    text-decoration: none;
+    font-size: 24px;
+    font-family: Archivo, sans-serif;
+    display: inline-block;
+    color: white;
+    margin-top: 20px;
+    margin-left: 10px;
+    border: 3px solid wheat;
+    padding: 8px;
+
+}
+
+.topic {
+    font-family: Archivo, monospace;
+    font-size: 32px;
+    text-align: center;
+    color: cornsilk;
+    font-weight: bold;
+}
+
+#hello {
+    margin-top: 35px;
+}
+
+.intro,
+#hello {
+    color: white;
+    text-align: center;
+    font-size: 24px;
+    font-family: Ubuntu, monospace;
+    font-weight: 400;
+}
+
+#interest {
+    margin-top: 50px;
+}
+
+.interest {
+    margin-top: 20px;
+    list-style-type: none;
+    text-align: center;
+    color: white;
+    font-family: Ubuntu;
+    font-size: 24px;
+}
+
+.interest li {
+    padding: 0px 10px 10px 10px;
+}
+
+#contact {
+    margin-top: 50px;
+    text-align: center;
+    color: white;
+    font-family: Ubuntu;
+}
+
+strong.contact-attributes {
+    font-weight: bold;
+    color: wheat;
+}
+
+.topics {
+    font-size: 26px;
+}
+
+@media screen and (max-width:480px) {
+
+    .alldetails {
+        text-align: center;
+        color: white;
+        font-family: Ubuntu, sans-serif;
+        border: 0.3em solid white;
+        margin: 10%;
+        padding: 10px;
+        text-transform: uppercase;
+    }
+
+    body {
+        background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(Images/background-image.jpg);
+        background-position: center;
+        background-repeat:no-repeat;
+        background-size:cover;
+
+    }
+    .topic {
+        font-size: 2.5em;
+    }
+
+    #about_mes,
+    #interest,
+    #contact {
+        margin-top: 10%;
+        width: 100%;
+    }
+
+    .nav {
+        margin: 20% auto;
+    }
+    .nav a {
+        margin: 3%;
+    }
+
+    .intro,
+    #hello {
+        color: white;
+        text-align: center;
+        font-size: 1.55em;
+        font-family: Ubuntu, monospace;
+        font-weight: 300;
+        width: 100%;
+        margin: 2% auto;
+    }
+
+    #name {
+        font-size: 1.2em;
+    }
+
+    #designation {
+        margin-top: 4%;
+        font-size: 0.98em;
+    }
+
+    #interests {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    .interest {
+        margin-top:4%;
+        list-style-type: none;
+        text-align: center;
+        color: white;
+        font-family: Ubuntu;
+        font-size: 1.6em;
+        width: 100%;
+    }
+    .interest li{
+        padding:3%;
+    }
+
+    .topics {
+    font-size: 1.2em;
+}    
+
+}
+
+@media  screen and (min-width:480px) and (max-width:1100px) {
+
+    #name {
+         font-size: 2em; 
+    }
+
+    #designation {
+        margin-top: 4%;
+        font-size: 1.5em;
+    }
+
+    .alldetails {
+        text-align: center;
+        color: white;
+        font-family: Ubuntu, sans-serif;
+        border: 0.em solid white;
+        margin: 10%;
+        padding: 15px;
+        text-transform: uppercase;
+    }
+
+    body {
+        background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(Images/background-image.jpg);
+        background-position: center;
+        background-size:cover;
+        background-repeat:no-repeat;
+
+    }
+    .topic {
+        font-size: 3.5em;
+    }
+
+    #about_mes,
+    #interest,
+    #contact {
+        margin-top: 10%;
+        width: 100%;
+    }
+
+    .nav {
+        width:100%;
+
+    }
+    .nav a {
+        display:inline-block;
+    }
+
+    .intro,
+    #hello {
+        color: white;
+        text-align: center;
+        font-size: 2.0em;
+        font-family: Ubuntu, monospace;
+        font-weight: 300;
+        width: 100%;
+        margin: 2% auto;
+    }
+
+    #interests {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    .interest {
+        margin-top:4%;
+        list-style-type: none;
+        text-align: center;
+        color: white;
+        font-family: Ubuntu;
+        font-size: 2em;
+        width: 100%;
+    }
+    .interest li{
+        padding:3%;
+    }
+
+    .topics {
+    font-size: 2em;
+}    
+
+}
+
